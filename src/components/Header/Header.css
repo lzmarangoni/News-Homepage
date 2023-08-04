@@ -1,0 +1,18 @@
+.Header{
+    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+Header li{
+    
+    margin: 0 1rem;
+   
+}
