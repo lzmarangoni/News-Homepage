@@ -1,18 +1,49 @@
 .Header{
     box-sizing: border-box;
-    
     display: flex;
     justify-content: space-between;
 }
 
-.Header ul{
+.menu{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-Header li{
-    
+.menu li{
+    text-decoration: none;
     margin: 0 1rem;
    
+}
+
+@media screen and (max-width:400px) {
+    .menu{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 100%;
+        margin: 0;
+        z-index: 1;
+        animation-duration: 3;
+        padding: 2rem 0rem 20rem 0rem;
+        box-sizing: border-box;
+        
+    }
+
+    .close{
+        position: absolute;
+        right: 0;
+    }
+    .menu li{
+        text-align: left;
+        width: 100%;
+        margin: 2rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .menuDesativado{
+        overflow-x: hidden;
+    }
+    
 }
