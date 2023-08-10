@@ -1,0 +1,23 @@
+.itemDeLista{
+    text-decoration: none;
+    color: black;
+    margin: 0 1rem;
+}
+.itemDeLista:hover{
+    transition-duration: .5s;
+    color: red;
+    
+}
+.itemDeLista:focus{
+    transition-duration: .5s;
+    color: red;
+    
+}
+
+@media screen and (max-width:400px) {
+
+    .itemDeLista{
+        color: white;
+    }
+    
+}
