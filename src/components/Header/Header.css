@@ -10,8 +10,9 @@
     align-items: center;
 }
 
-.menu li{
+.itemDeLista{
     text-decoration: none;
+    color: white;
     margin: 0 1rem;
 
    
@@ -77,3 +78,4 @@
 
   
 }
+
