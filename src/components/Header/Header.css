@@ -20,6 +20,10 @@
     display: none;
 }
 
+.menuBar{
+    display: none;
+}
+
 @media screen and (max-width:400px) {
     .menuLateral{
         width: 70%;
@@ -29,6 +33,9 @@
         z-index: 1;
         background-color: gray;
         transition-duration: 1s;
+    }
+    .menuBar{
+        display: inline;
     }
 
     .menuLateralOff{
