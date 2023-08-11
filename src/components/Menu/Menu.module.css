@@ -25,9 +25,6 @@
         background-color: gray;
         transition-duration: 1s;
     }
-    .menuBar{
-        display: inline;
-    }
 
     .menuLateralOff{
         width: 0;
@@ -40,7 +37,6 @@
         transition-duration: 1s;
     }
 
-
     .menu{
         display: flex;
         flex-direction: column;
@@ -51,6 +47,7 @@
     svg{
         margin: 1rem;
     }
+
     .close{
        display: inline;
        position: absolute;
@@ -65,7 +62,6 @@
         margin: 2rem 0;
         font-weight: 700;
         font-size: 1.5rem;
-      
     }
 
   
