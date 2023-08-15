@@ -1,0 +1,46 @@
+
+.card{
+    width: 50%;
+    margin: 1rem 0;
+}
+
+.card img{
+    height: 20rem;
+}
+
+.cardDescription{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 0;
+    
+}
+
+.cardDescription h1{
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+
+.cardDescription p{
+    text-align: left;
+   
+}
+.cardText{
+    margin-left:3rem;
+    width: 100%;
+}
+
+.buttonCustom{
+    border: none;
+    color: white;
+    border-radius: .25rem;
+    background-color: red;
+    box-sizing: border-box;
+    padding: .5rem 1rem;
+    font-weight: 700;
+    align-items: left;
+    margin: 1rem;
+   
+}
