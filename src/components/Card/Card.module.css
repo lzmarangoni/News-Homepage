@@ -1,11 +1,11 @@
 
 .card{
-    width: 50%;
+    width: 70%;
     margin: 1rem 0;
 }
 
 .card img{
-    height: 20rem;
+    width: 100%;
 }
 
 .cardDescription{
@@ -14,13 +14,13 @@
     justify-content: space-between;
     width: 100%;
     padding: 1rem 0;
-    
 }
 
 .cardDescription h1{
     font-weight: 700;
     margin: 0;
     text-align: left;
+    font-size: 2rem;
 }
 
 .cardDescription p{
@@ -30,6 +30,7 @@
 .cardText{
     margin-left:3rem;
     width: 100%;
+    text-align: left;
 }
 
 .buttonCustom{
@@ -41,6 +42,20 @@
     padding: .5rem 1rem;
     font-weight: 700;
     align-items: left;
-    margin: 1rem;
-   
+    align-items:start;
+    margin-top: 1rem;   
+}
+
+@media screen and (max-width:400px) {
+    .card{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 1rem;
+    }
+    .cardDescription{
+        display: block;
+    }
+    .cardText{
+        margin: 2rem 0
+    }
 }
