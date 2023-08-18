@@ -28,6 +28,8 @@ export default function Top3Card() {
                 <p>Wow the pandemic has sparked fresh opportunities.</p>
             </div>
         </div>
+
+        <input placeholder=''></input>
     </div>
   )
 }
